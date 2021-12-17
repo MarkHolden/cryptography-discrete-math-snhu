@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cryptography", "cryptography\cryptography.csproj", "{54FFD8C6-76DF-4AEF-8B08-9789AD40109A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptography", "cryptography\Cryptography.csproj", "{54FFD8C6-76DF-4AEF-8B08-9789AD40109A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
