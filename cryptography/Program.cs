@@ -4,19 +4,29 @@
     {
         public static void Main()
         {
-            Console.WriteLine("Press E to Encrypt, and D to Decrypt.");
-            var input = Console.ReadLine();
-            switch (input)
+            var exit = false;
+            while(!exit)
             {
-                case "E":
-                    Encrypt.Run();
-                    break;
-                case "D":
-                    Decrypt.Run();
-                    break;
-                default:
-                    Console.WriteLine("Invalid Entry.");
-                    break;
+                Console.WriteLine("Press E to Encrypt, D to Decrypt, and Q to quit.");
+                var input = Console.ReadLine();
+                switch (input)
+                {
+                    case "E":
+                    case "e":
+                        Encrypt.Run();
+                        break;
+                    case "Q":
+                    case "q":
+                        exit = true;
+                        break;
+                    case "D":
+                    case "d":
+                        Decrypt.Run();
+                        break;
+                    default:
+                        Console.WriteLine("Invalid Entry.");
+                        break;
+                }
             }
         }
     }
